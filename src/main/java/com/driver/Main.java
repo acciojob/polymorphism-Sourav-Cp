@@ -22,8 +22,8 @@ public class Main {
     public static void main(String args[])
     {
         Product p = new Product();
-        p.product(2,4);
-        p.product(2,4,6);
-        p.product(2.6,5.2);
+        System.out.println(p.product(2,4));
+        System.out.println(p.product(2,4,6));
+        System.out.println(p.product(2.6,5.2));
     }
 }
